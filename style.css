@@ -3,20 +3,30 @@
     padding: 0;
 }
 body{
-    background-color: #ffff;
+    background-color: #EBE7EE;
     display: flex;
     justify-content: center;
     
 }
+.heading-1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    color:grey;
+    text-align: left;
+    margin-left: 60px;
+}
 #form {
-    height: 500px;
+    height: 600px;
     width: 600px;
-    border-color: 2px solid black;
+    border-radius: 9px;
+    /* border-color: 2px solid black; */
     /* display: flex; */
     text-align: center;
     align-items: center;
     margin: 100px 10px 10px 10px;
-    border: 4px solid black;
+    /* border: 4px solid black; */
+    background-color: #FFFFFF;
+    box-shadow:0px 0px 2px 1px gray;
 }
 .title{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +35,7 @@ body{
 }
 #unName {
     height: 40px;
-    width: 90%;
+    width: 80%;
     font-size: larger;
     text-align: center;
     font-weight: bolder;
@@ -35,7 +45,7 @@ body{
 
 #mail {
     height: 40px;
-    width: 90%;
+    width: 80%;
     font-size: larger;
     text-align: center;
     font-weight: bolder;
@@ -45,7 +55,7 @@ body{
 
 #pwd {
     height: 40px;
-    width: 90%;
+    width: 80%;
     font-size: larger;
     text-align: center;
     font-weight: bolder;
@@ -53,9 +63,9 @@ body{
     border: 3px solid black;
 }
 
-#birth {
+#cnfpass {
     height: 40px;
-    width: 90%;
+    width: 80%;
     font-size: larger;
     text-align: center;
     font-weight: bolder;
@@ -65,7 +75,7 @@ body{
 
 #mob {
     height: 40px;
-    width: 90%;
+    width: 80%;
     font-size: larger;
     text-align: center;
     font-weight: bolder;
@@ -83,12 +93,13 @@ body{
 }
 
 #regist {
-    height: 30px;
-    width: 30%;
+    height: 45px;
+    width: 80%;
     margin: 10px 10px 10px 10px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     font-size: larger;
-    background-color: #72CE6F;
+    background-color:#1479C7;
+    color: white;
 }
 
 #clear {
